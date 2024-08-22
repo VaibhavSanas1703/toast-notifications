@@ -64,21 +64,43 @@ ion-icon{
 }
 
 #success{
-   border: 2px solid #25fc62;
-   background: transparent;
-   color: #fff;
+   background: #25fc62;
+   color: #000;
+   transition: .4s;
+   -webkit-transition: .4s linear;
+   -moz-transition: .4s linear;
+   -ms-transition: .4s linear;
+   -o-transition: .4s linear;
 }
 
 #error{
-   border: 2px solid red;
-   background: transparent;
+   background: red;
    color: #fff;
+   transition: .4s linear;
+   -webkit-transition: .4s linear;
+   -moz-transition: .4s linear;
+   -ms-transition: .4s linear;
+   -o-transition: .4s linear;
 }
 
 #warning{
-   border: 2px solid gold;
-   background: transparent;
-   color: #fff;
+   background: gold;
+   color: #000;
+   transition: .4s;
+   -webkit-transition: .4s linear;
+   -moz-transition: .4s linear;
+   -ms-transition: .4s linear;
+   -o-transition: .4s linear;
+}
+
+#warning:active{
+   scale: 0.9;
+}
+#error:active{
+   scale: 0.9;
+}
+#success:active{
+   scale: 0.9;
 }
 
 .success-msg{
