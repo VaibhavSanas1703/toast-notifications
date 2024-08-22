@@ -64,17 +64,21 @@ ion-icon{
 }
 
 #success{
-   background:#25fc62;
-   color: #000;
+   border: 2px solid #25fc62;
+   background: transparent;
+   color: #fff;
 }
 
 #error{
-   background: red;
-   color: #eee;
+   border: 2px solid red;
+   background: transparent;
+   color: #fff;
 }
 
 #warning{
-   background: gold;
+   border: 2px solid gold;
+   background: transparent;
+   color: #fff;
 }
 
 .success-msg{
